@@ -83,6 +83,7 @@ export default class App extends Component {
                 <tr key={id}>
                   
                   <td>{id}</td>
+                  
                   <td>
                     {this.state.selected === id ? (
                       <input
